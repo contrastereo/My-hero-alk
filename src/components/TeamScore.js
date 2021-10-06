@@ -35,7 +35,6 @@ const TeamScore = () => {
         maxKey = key;
       }
     }
-    console.log(teamAverage);
   }, [myTeam]);
   return (
     <Table>

@@ -48,6 +48,7 @@ const CharacterCard = (props) => {
             </tbody>
           )}
         </Table>
+        {/* Rendering action button  */}
         <CharacterOptions character={character} />
       </Card.Body>
     </Card>
